@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Broken Clock</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+      <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <svg width="1em"
+             height="1em"
+             viewBox="0 0 16 16"
+             class="bi bi-caret-down-fill"
+             fill="white"
+             xmlns="http://www.w3.org/2000/svg">
+          <path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+        </svg>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul data-aos="fade-down" class="navbar-nav d-md-flex justify-content-evenly w-100 py-2">
+          <li class="nav-item">
+            <a href="#" class="nav-link link-light text-decoration-none fst-italic fs-5">
+              Ми
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link-light text-decoration-none fst-italic fs-5">
+              Переваги
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link-light text-decoration-none fst-italic fs-5">
+              Новини
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link-light text-decoration-none fst-italic fs-5">
+              Контакти
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div class="bg-light-blue">
+    <div class="container-fluid hero d-flex align-items-md-center align-items-center align-items-md-end flex-column flex-md-row justify-content-around">
+      <img data-aos="fade-right" src="./assets/imgs/hero-watch.svg" alt=" ">
+      <div data-aos="fade-left" class="hero-text mb-8 mr-8">
+        <p class="fs-md-0 fs-1 text-uppercase fw-dark text-light">годинник</p>
+        <p class="fs-md-0 fs-1 text-uppercase fw-dark fst-italic">broken S2.t</p>
+        <p class="fs-md-3 fs-4 fw-light text-uppercase text-light">відчувай перевагу</p>
+      </div>
+    </div>
+
+    <div class="container-fluid pb-6">
+      <p data-aos="zoom-in" class="fs-5 text-center fw-bold w-60 mx-auto">
+        Втомився бути ідеальним? Усе навколо занадто правильне та стійке? А хто сказав, що так має бути?
+        Зустрічайте!
+        <span class="text-white">Нова версія годинника broken s2.t!</span>
+        Порушуй правила, переходь кордони, <span class="text-white">ламай</span> цей світ
+        разом
+        з нами! </p>
+    </div>
+  </div>
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/imgs/first-slide.png" class="d-block w-100" alt=" ">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/imgs/second-slide.png" class="d-block w-100" alt=" ">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/imgs/third-slide.png" class="d-block w-100" alt=" ">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+
+  <div class="form-block w-100 py-6">
+    <form class="form py-5 w-50 mx-auto">
+      <div class="bg-white px-3 py-3">
+        <p class="text-uppercase text-dark text-center fw-bold">
+          залиште свої контакти, якщо хочете з нами зв’язатися! </p>
+      </div>
+      <div class="d-flex flex-column w-100 text-white bg-black fst-italic fs-4 p-5 text-uppercase">
+        <div class="d-flex justify-content-between mb-3 flex-column flex-lg-row">
+          <label for="name">Ім'я:</label>
+          <input class="rounded-pill px-3 py-1 bg-light border-none" type="text" id="name">
+        </div>
+        <div class="d-flex justify-content-between mb-3 flex-column flex-lg-row">
+          <label for="surname">Фамілія:</label>
+          <input class="rounded-pill px-3 py-1 bg-light border-none" type="text" id="surname">
+        </div>
+        <div class="d-flex justify-content-between mb-3 flex-column flex-lg-row">
+          <label for="address">Адреса:</label>
+          <input class="rounded-pill px-3 py-1 bg-light border-none" type="text" id="address">
+        </div>
+        <div class="d-flex justify-content-between mb-3 flex-column flex-lg-row">
+          <label for="phone">Телефон:</label>
+          <input class="rounded-pill px-3 py-1 bg-light border-none" type="tel" id="phone">
+        </div>
+        <div class="d-flex justify-content-between flex-column flex-lg-row">
+          <label for="email">Електрона пошта:</label>
+          <input class="rounded-pill px-3 py-1 bg-light border-none" type="email" id="email">
+        </div>
+      </div>
+      <button data-button="form"
+              type="button"
+              data-toggle="modal"
+              data-target="#myModal"
+              class=" text-white m-auto mt-5 d-block btn btn-lg bg-rose px-5 py-3 text-uppercase fw-bolder rounded-pill">
+        Купити
+      </button>
+    </form>
+  </div>
+</main>
+
+<footer class="bg-black text-white">
+  <div class="d-flex justify-content-evenly py-5  flex-column flex-sm-row">
+    <div class="d-flex social-block align-items-center justify-content-between flex-column flex-md-row">
+      <img class="social w-25" src="./assets/imgs/facebook.svg" alt=" ">
+      <p class="text-uppercase m-0">brokenwatch</p>
+    </div>
+    <div class="d-flex social-block align-items-center justify-content-between flex-column flex-md-row">
+      <img class="social w-25" src="./assets/imgs/insta.svg" alt=" ">
+      <p class="m-0">@brokenwatch</p>
+    </div>
+    <div class="d-flex social-block align-items-center justify-content-between flex-column flex-md-row">
+      <img class="social w-25" src="./assets/imgs/wa.svg" alt=" ">
+      <p class="text-uppercase m-0">+38 095 638 89 01</p>
+    </div>
+  </div>
+</footer>
+
+<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./index.js"></script>
+
+</body>
+</html>
