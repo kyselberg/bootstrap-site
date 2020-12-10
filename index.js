@@ -17,6 +17,7 @@ document
     }
     for (const el of inputs) {
       if (!el.value) message.value = 'Введіть усі дані'
+      else message.valid = true
     }
     const modal = document.createElement('div')
     modal.classList.add('modal')
